@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB7F28BB20493344005DACC1 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7F28BA20493344005DACC1 /* Live.storyboard */; };
+		BB7F28C02049335F005DACC1 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7F28BF2049335F005DACC1 /* Profile.storyboard */; };
+		BB7F28C22049398C005DACC1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7F28C12049398C005DACC1 /* MainViewController.swift */; };
+		BB7F28C720493F7E005DACC1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7F28C620493F7E005DACC1 /* Home.storyboard */; };
+		BB7F28C920493FD8005DACC1 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB7F28C820493FD8005DACC1 /* Follow.storyboard */; };
 		BBB8E3AB20491FC700558576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB8E3AA20491FC700558576 /* AppDelegate.swift */; };
 		BBB8E3B020491FC700558576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBB8E3AE20491FC700558576 /* Main.storyboard */; };
 		BBB8E3B220491FC700558576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBB8E3B120491FC700558576 /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB7F28BA20493344005DACC1 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		BB7F28BF2049335F005DACC1 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		BB7F28C12049398C005DACC1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BB7F28C620493F7E005DACC1 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		BB7F28C820493FD8005DACC1 /* Follow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
 		BBB8E3A720491FC700558576 /* DY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBB8E3AA20491FC700558576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBB8E3AF20491FC700558576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +43,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB7F28C320493EAB005DACC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB7F28C420493EAB005DACC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB7F28C520493EAB005DACC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BBB8E39E20491FC700558576 = {
 			isa = PBXGroup;
 			children = (
@@ -54,7 +85,6 @@
 			children = (
 				BBB8E3BC204920D600558576 /* Classes */,
 				BBB8E3AA20491FC700558576 /* AppDelegate.swift */,
-				BBB8E3AE20491FC700558576 /* Main.storyboard */,
 				BBB8E3B120491FC700558576 /* Assets.xcassets */,
 				BBB8E3B320491FC700558576 /* LaunchScreen.storyboard */,
 				BBB8E3B620491FC700558576 /* Info.plist */,
@@ -78,6 +108,7 @@
 		BBB8E3BD204920D600558576 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				BB7F28C820493FD8005DACC1 /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -85,6 +116,10 @@
 		BBB8E3BE204920D600558576 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				BB7F28C420493EAB005DACC1 /* Controller */,
+				BB7F28C520493EAB005DACC1 /* Model */,
+				BB7F28C320493EAB005DACC1 /* View */,
+				BB7F28C620493F7E005DACC1 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -92,6 +127,7 @@
 		BBB8E3BF204920D600558576 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				BB7F28BA20493344005DACC1 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -99,6 +135,8 @@
 		BBB8E3C0204920D600558576 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BBB8E3AE20491FC700558576 /* Main.storyboard */,
+				BB7F28C12049398C005DACC1 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -106,6 +144,7 @@
 		BBB8E3C1204920D600558576 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				BB7F28BF2049335F005DACC1 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -179,6 +218,10 @@
 				BBB8E3B520491FC700558576 /* LaunchScreen.storyboard in Resources */,
 				BBB8E3B220491FC700558576 /* Assets.xcassets in Resources */,
 				BBB8E3B020491FC700558576 /* Main.storyboard in Resources */,
+				BB7F28C920493FD8005DACC1 /* Follow.storyboard in Resources */,
+				BB7F28BB20493344005DACC1 /* Live.storyboard in Resources */,
+				BB7F28C02049335F005DACC1 /* Profile.storyboard in Resources */,
+				BB7F28C720493F7E005DACC1 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBB8E3AB20491FC700558576 /* AppDelegate.swift in Sources */,
+				BB7F28C22049398C005DACC1 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 584BL9T4N4;
 				INFOPLIST_FILE = DY/Info.plist;
@@ -342,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 584BL9T4N4;
 				INFOPLIST_FILE = DY/Info.plist;
