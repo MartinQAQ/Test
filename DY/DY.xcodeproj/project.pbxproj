@@ -53,11 +53,100 @@
 		BB7F28C420493EAB005DACC1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BB7F28C620493F7E005DACC1 /* Home.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
 		BB7F28C520493EAB005DACC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB7F28CC204942EA005DACC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB7F28CD204942EB005DACC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB7F28CE204942EB005DACC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB7F28CA20494107005DACC1 /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB7F28CF20494318005DACC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB7F28D020494318005DACC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB7F28BA20493344005DACC1 /* Live.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB7F28D120494318005DACC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB7F28D220494326005DACC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB7F28C820493FD8005DACC1 /* Follow.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB7F28D320494326005DACC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB7F28D420494326005DACC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB7F28D520494332005DACC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB7F28BF2049335F005DACC1 /* Profile.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB7F28D620494332005DACC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB7F28D720494333005DACC1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -108,7 +197,9 @@
 		BBB8E3BD204920D600558576 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
-				BB7F28C820493FD8005DACC1 /* Follow.storyboard */,
+				BB7F28D220494326005DACC1 /* Controller */,
+				BB7F28D420494326005DACC1 /* Model */,
+				BB7F28D320494326005DACC1 /* View */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -119,7 +210,6 @@
 				BB7F28C420493EAB005DACC1 /* Controller */,
 				BB7F28C520493EAB005DACC1 /* Model */,
 				BB7F28C320493EAB005DACC1 /* View */,
-				BB7F28C620493F7E005DACC1 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -127,7 +217,9 @@
 		BBB8E3BF204920D600558576 /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				BB7F28BA20493344005DACC1 /* Live.storyboard */,
+				BB7F28D020494318005DACC1 /* Controller */,
+				BB7F28D120494318005DACC1 /* Model */,
+				BB7F28CF20494318005DACC1 /* View */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -135,8 +227,10 @@
 		BBB8E3C0204920D600558576 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BB7F28CE204942EB005DACC1 /* Controller */,
+				BB7F28CC204942EA005DACC1 /* Model */,
+				BB7F28CD204942EB005DACC1 /* View */,
 				BB7F28C12049398C005DACC1 /* MainViewController.swift */,
-				BB7F28CA20494107005DACC1 /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -144,7 +238,9 @@
 		BBB8E3C1204920D600558576 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				BB7F28BF2049335F005DACC1 /* Profile.storyboard */,
+				BB7F28D520494332005DACC1 /* Controller */,
+				BB7F28D720494333005DACC1 /* Model */,
+				BB7F28D620494332005DACC1 /* View */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
